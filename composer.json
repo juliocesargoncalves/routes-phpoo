@@ -1,0 +1,25 @@
+{
+    "name" :"julio/phpoo",
+
+    "authors": [
+        {
+            "name":"Julio Cesar",
+            "email":"j.juliocesargoncalves@gmail.com"
+        }
+    ],
+     "require": {
+        "league/plates": "^3.5",
+        "symfony/var-dumper": "^5.4"
+    },
+
+     "autoload": {
+        "psr-4": {
+            "app\\":"app"
+            
+        },
+
+        "files": [
+
+        ]
+     }
+}
